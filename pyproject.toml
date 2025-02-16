@@ -1,0 +1,20 @@
+[project]
+name = "roadwise"
+version = "0.1.0"
+description = "Smart choices for rentals and purchases."
+authors = [
+    {name = "meliodas0n",email = "mrunalnarayana@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "fastapi[all] (>=0.115.8,<0.116.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
